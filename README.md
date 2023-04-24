@@ -2,6 +2,8 @@ DEMO for Food DELIVERY :
 https://yogeshtiwari2000.github.io/Projects/Food%20Delivery
 DEMO for Myntra Landing Clone :
 https://yogeshtiwari2000.github.io/Projects/Myntra
+Demo for animated car :
+https://yogeshtiwari2000.github.io/Projects/car_animated
 DEMO For GYM :
 https://yogeshtiwari2000.github.io/Projects/project%20gym
 DEMO :
