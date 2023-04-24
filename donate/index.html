@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            background-color: white;
+            padding: 1rem;
+            font-family: Montserrat;
+            font-size: 16px;
+            /* margin-top: 0; */
+            margin-bottom: 5rem;
+            height: 3em;
+            display: flex;
+            justify-content: space-around;
+        }
+        #logo{
+            margin-top: 1rem;
+        }
+        ul {
+            display: flex;
+            margin-top: 2rem;
+        }
+
+        .item {
+            list-style: none;
+            padding-left: 20px;
+            padding-right: 20px;
+            color: white;
+            font-family: Montserrat;
+            margin-top: 1rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .donate-button {
+            background-color: #233F97;
+            border-radius: 21px;
+            color: white;
+            font-size: 18px;
+            padding: 16px 39px;
+            border: none;
+            display: inline;
+            margin-left: 1rem;
+            font-weight: bold;
+            width: 100%;
+        }
+        .pink-wala-btn{
+            background-color: #fc4e57;
+            border-radius: 21px;
+            color: white;
+            font-size: 18px;
+            padding: 8px 8px;
+            border: none;
+            display: inline;
+            margin-left: 1rem;
+            font-weight: bold;
+            width: 100%;
+            margin: 5px;
+        }
+
+
+        .content {
+            background-color: #f4f4f4;
+            font-family: Montserrat;
+            text-align: center;
+            color: #233F97;
+
+        }
+
+        #cover-heading {
+            padding-top: 2rem;
+            font-size: 45px;
+            display: flex;
+            justify-content: space-evenly;
+            font-family: 'Monoton', cursive;
+        }
+        .card-title{
+            font-size: 35px;
+            background-color: beige;
+        }
+        .card{
+            box-shadow: 5px 5px 5px 5px gainsboro;
+
+        }
+        #message {
+            font-size: 25px;
+            font-family: Montserrat;
+            padding: 10px;
+        }
+        .container-img{
+            display: flex;
+            justify-content: space-around;
+        }
+        .payinfo{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .bank-info{
+            background-color: white;
+            padding: 3rem;
+            border-radius: 20px;
+        }
+
+    /* @media screen and (max-width: 600px) {
+        .container {
+            background-color: white;
+            padding: 1rem;
+            font-family: Montserrat;
+            font-size: 16px;
+            
+            margin-bottom: 5rem;
+            display: flex;
+            margin-bottom: 10rem;
+            flex-direction: column;
+        }
+        ul {
+            display: flex;
+            flex-direction: column;
+            margin-top: 2rem;
+            width: 100vw;
+            text-align: center;
+
+        }
+        .content {
+            display: block;
+            background-color: #f4f4f4;
+            font-family: Montserrat;
+            text-align: center;
+            color: #233F97; 
+        }*/
+        /* #cover-heading {
+            padding-top: 2rem;
+            font-size: 20px;
+            display:flex;
+            justify-content: space-evenly;
+            font-family: 'Monoton', cursive;
+        } */
+      /*  .container-img{
+            display: block;
+            justify-content: space-around;
+        }
+        .donate-button {
+            display: none;
+        }
+        .main{
+            display: flex;
+            flex-direction: column;
+        }
+}*/
+    </style>
+</head>
+
+<body>
+    <div class="main">
+    <div class="container">
+        <div id="logo">
+            <img src="logo_cloth.png" alt="">
+        </div>
+        <div> <!-- class="nav-menu" -->
+            <ul>
+                <strong>
+                    <li class="item"><a href="#">ABOUT US</a> </li>
+                </strong>
+                <strong>
+                    <li class="item"><a href="#">EMPOWER </a></li>
+                </strong>
+                <strong>
+                    <li class="item"><a href="#">DONATE CLOTHS</a> </li>
+                </strong>
+                <a href="#"><button class="donate-button">Donate</button></a>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <p id="cover-heading"><span>UPLIFT</span> DONATE <span>SUPPORT</span> </p>
+        <p id="message"> <strong> A little love and help can go a long way.</strong></p>
+        <div class="container-img">
+            <div class="card" style="width: 30rem;">
+                <img src="https://images.pexels.com/photos/731504/pexels-photo-731504.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Sponsor a blanket</h5>
+                    <p class="card-text">Encourage education among underprivileged kids with beautiful bags to carry
+                        books and stationery. We distribute them in various Government Schools, Kendra Vidyalayas, Pathshalas, and even the
+                        kids in slums across the country. There are almost 2 lakh schools in India where children need
+                        help with school accessories</p>
+                        <a href="#"><button class="pink-wala-btn">ONE TIME</button></a>
+
+                </div>
+            </div>
+            <div class="card " style="width: 30rem;">
+                <img src="https://images.pexels.com/photos/448877/pexels-photo-448877.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Help Us Get To School</h5>
+                    <p class="card-text">Encourage education among underprivileged kids with beautiful bags to carry
+                        books and stationery. We distribute them in various Government Schools, Kendra Vidyalayas, Pathshalas, and even the
+                        kids in slums across the country. There are almost 2 lakh schools in India where children need
+                        help with school accessories</p>
+                        <a href="#"><button class="pink-wala-btn">ONE TIME</button></a>
+                </div>
+            </div>
+        </div>
+        <!-- #2 -->
+        <div class="container-img" style="padding-top: 3em;">
+            <div class="card" style="width: 30rem;">
+                <img src="https://images.pexels.com/photos/860577/pexels-photo-860577.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Sponsor My Training</h5>
+                    <p class="card-text">The skill development program empowers women from disadvantaged communities through livelihood training. Funds collected are used to train the beneficiaries in industrial stitching and artwork. At the end of the training, many take full-time jobs in factories of global brands. Details of various beneficiaries can be furnished if you write to us. </p>
+                        <a href="#"><button class="pink-wala-btn">ONE TIME</button></a>
+
+                </div>
+            </div>
+            <div class="card" style="width: 30rem;">
+                <img src="https://images.pexels.com/photos/7014365/pexels-photo-7014365.jpeg?auto=compress&cs=tinysrgb&w=600"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Sponsor My Fodder</h5>
+                    <p class="card-text">Mix of different types of fodder are being fed to Gauvansh. You can select the fodder which you want to Feed and contact us or deliver us.</p>
+                        <a href="#"><button class="pink-wala-btn">ONE TIME</button></a>
+                </div>
+            </div>
+
+            
+        </div>
+        <div class="contact">
+            <p style="padding: 90px;">*Please share your email id and PAN (optional) while making a donation so that we can send you the donation receipt.
+            <strong> All donations are tax exempted under section 80G of income tax act.</strong>
+            For any further query, contact: yogeshtiwari.b.007@gmail.com | Whatsapp: +91 9582467932</p>
+        </div>
+
+        <div class="payinfo">
+
+        <div class="bank-info">
+            <h4><strong>WALLETS / OTHERS</strong> </h4>
+            <img src="https://clothesboxfoundation.org/wp-content/uploads/2021/10/qr3.jpg" alt="">
+        </div>
+        <div class="bank-info " style="text-align: left;">
+            <h4><strong>ONLINE TRANSFERS</strong></h4><br>
+            <h5><strong>Account Name</strong> </h5>
+              <p style="color: black;"><strong> Clothes Box Foundation</strong></p><br>
+            <h5><strong>Account Number</strong> </h5>
+              <p style="color: black;"><strong> 920010045349735</strong></p><br>
+            <h5><strong>IFSC Codee</strong> </h5>
+              <p style="color: black;"><strong> UTIB0002692</strong></p><br>
+              <h5><strong>Branch Name</strong> </h5>
+              <p style="color: black;"><strong> Axis Bank, Qutab Plaza,</strong>
+                <p style="color: black;"><strong>DLF Phase – 1, Gurugram 122002</strong></p><br>
+        </div>
+
+    </div>
+
+    </div>
+</div>
+</body>
+
+</html>
