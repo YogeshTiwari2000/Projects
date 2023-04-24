@@ -12,4 +12,3 @@ DEMO :
 https://yogeshtiwari2000.github.io/Projects/calculator
 DEMO :
 https://yogeshtiwari2000.github.io/Projects/tic%20tac%20toe
-https://yogeshtiwari2000.github.io/Projects/tree/main/tic%20tac%20toe
