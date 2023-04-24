@@ -10,7 +10,7 @@ DEMO :
 https://yogeshtiwari2000.github.io/Projects/project%20invisible%20login
 DEMO :
 https://yogeshtiwari2000.github.io/Projects/calculator
-DEMO :
+DEMO TIC TAC TOE:
 https://yogeshtiwari2000.github.io/Projects/tic%20tac%20toe
-DEMO:
+DEMO PORTFOLIO:
 https://yogeshtiwari2000.github.io/Projects/portfolio_try_0
