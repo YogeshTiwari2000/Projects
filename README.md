@@ -1,1 +1,1 @@
-https://yogeshtiwari2000.github.io/Projects/index.html
+https://yogeshtiwari2000.github.io/Projects/Food Delivery/
