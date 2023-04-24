@@ -1,4 +1,4 @@
 DEMO for Food DELIVERY :
 https://yogeshtiwari2000.github.io/Projects/Food%20Delivery
 DEMO For GYM
-https://yogeshtiwari2000.github.io/Projects/tree/main/project%20gym
+https://yogeshtiwari2000.github.io/Projects/project%20gym
