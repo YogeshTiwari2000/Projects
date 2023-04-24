@@ -1,1 +1,1 @@
-https://yogeshtiwari2000.github.io/Projects/tree/main/Food%20Delivery
+https://yogeshtiwari2000.github.io/Projects/Food%20Delivery
