@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            overflow-x: hidden;
+        }
+        .left img{
+            width: 50px;
+            height: 50px;
+        }
+        .container{
+            max-width: 80vw;
+            margin: 20px 0px;
+            padding: 0 10vw;
+            box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+
+        }
+        header{
+            max-width: 80vw;
+            margin: auto;
+            position: sticky;
+            top: 0;
+            background-color: white;
+            height: 66px;
+            /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+            /* background-color: rebeccapurple; */
+        }
+        nav ul li{
+            list-style: none;
+            padding: 0 20px;
+        }
+        nav{
+            display: flex;
+            font-size: 12px;
+            font-weight: bolder;
+            padding-top: 14px;
+        }
+        .flex{
+            display: flex;
+        }
+        .items-center {
+            align-items: center;
+        }
+        .justify-center{
+            justify-content: center;
+        }
+        .space-between{
+            justify-content: space-between;
+        }
+        .uppercase{
+            text-transform: uppercase;
+            font-weight: bolder;
+        }
+        .mx-2{
+            margin-left: 12px;
+            margin-right: 12px;
+        }
+        .section1{
+            /* background-color:#f7f7f7; */
+            background-color: white;
+        }
+        .section2 img{
+            width: 100vw;
+        }
+        .section3{
+            display: flex;
+            width: 100vw;
+            justify-content: center;
+            align-items: center;
+        }
+        .input{
+            width: 20vw;
+            padding: 10px 17px;
+            border: 0.5px solid gray;
+            background-color: #f5f5f6;
+            border-radius: 5px;
+        }
+        .homeImg{
+            width: 80vw;
+            margin: 12px 0;
+        }
+        .itemImg{
+            width: 10vw;
+            /* margin: 0px 2px; */
+        }
+        .flex-wrap{
+            flex-wrap: wrap;
+        }
+        footer{
+            background-color:#fafbfc;
+        }
+        .desktop-shopLinks {
+    float: left;
+    width: 155px;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 20px;
+}
+.desktop-genericInfo {
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+.desktop-shopLinks>p {
+    font-weight: 700;
+}
+.desktop-customerPolicies>p {
+    font-weight: 700;
+}
+.desktop-downLinkContainer {
+    display: inline-block;
+}
+.desktop-androidDownLink, .desktop-iOSDownLink {
+    margin-right: 10px;
+    height: 42px;
+}
+
+.desktop-keepInTouch {
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.desktop-facebook, .desktop-instagram, .desktop-twitter, .desktop-youtube {
+    margin: 0 15px 0 0;
+    display: inline-block;
+}
+.desktop-gInfoTitle, .desktop-or {
+    font-size: 12px;
+}
+.desktop-appExperience {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 20px;
+    width: 360px;
+    font-size: 15px;
+    line-height: 19px;
+    float: left;
+    padding-top: 13px;
+}
+.desktop-appExperience>p:first-child {
+    font-weight: 700;
+    color: #282c3f;
+    margin: -3px 0 0;
+    padding: 0 0 25px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+a {
+    text-decoration: none;
+    color: #282c3f;
+}
+a {
+    background-color: transparent;
+    font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+.desktop-customerPolicies>a, .desktop-shopLinks>a {
+    color: #696b79;
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+    cursor: pointer;
+    line-height: normal;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+    </style>
+</head>
+<body>
+    <header class="container">
+        <nav class="flex space-between">
+            <div class="left flex items-center">
+                <img src="https://cdn-images-1.medium.com/max/1200/1*1Wgf9O-RorIenC59I48Cvg.png" alt="">
+                <ul class="flex items-center justify-center uppercase">
+                    <li>Men</li>
+                    <li>Women</li>
+                    <li>Home & Living</li>
+                    <li>Kids</li>
+                    <li>Beauty </li>
+                    <li>Studio</li>
+                </ul>
+            </div>
+            <div class="right flex items-center">
+                <input placeholder="Search for products, brands and more" class="input" value="" data-reactid="907">
+                <div class="Profile mx-2">Profile</div>
+                <div class="Wishlist mx-2">Wishlist</div>
+                <div class="Bag mx-2">Bag</div>
+            </div>
+        </nav>
+    </header>
+    <section class="container section1">
+        <img class="homeImg" src="home.png" alt="">
+       
+    </section>
+ 
+    <section class=" section2">
+        <img src="https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2023/4/3/f686769c-bc1b-4ea1-8a4e-8783a2db2ed01680503500849-Budget-Buys.jpg" alt=""> 
+    </section>
+    <section class="section3 flex-wrap">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/1b181430-fb52-49ed-a22c-abf3a8dbe3f91680182237378-Casual-Shoes.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/c42dc654-ac18-44d7-895f-229f597a83391680182237415-Flip-Flops.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/ae4a4e81-9f33-4be6-aca6-cd31b002fb311680182237505-Sandals.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/f55a8d38-87c2-4e5b-922a-cce62202e2181680182237450-Jeans.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/0efa613a-057c-4efa-bab4-d87406e943b41680182237529-Shirts.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/c54c2e1f-1846-4850-b31d-8346c06408911680182237539-Sports-Shoes.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/d9c03d35-ca0e-4372-be09-5180b052b5ff1680182237564-Trolleys-_-Backpacks.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/30891e09-48f7-433f-8569-40ed5f01d52f1680182237575-T-Shirts.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/4f73cbc7-65fe-4999-b03f-39fafab4d12b1680182237585-Watches-_-Wearables.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/b26e436d-5c4a-4f75-8f43-7e0bf18cddd21680182237398-Dresses.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/126f9b9c-8c33-41fa-87cb-194301273fee1680182237407-Flats-_-Heels.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/42e96b7c-5f09-41c6-9933-580ade9279b91680182237426-Handbags--Wallets-_-Clutches.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/653114ce-832b-4032-be25-dd2edd4bacae1680182237462-Jeans-1.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/383b6fd9-f8a3-461f-b1e7-5f33809ace6a1680182237474-Kids-Wear.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/56dfd7c4-cb7b-4c0f-98ec-7a219152dd1f1680182237483-Kurta-Sets.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/4a580849-e7d3-4e6a-ba3c-0f25218854ca1680182237492-Kurtas.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/28cfce55-cef8-4864-84be-159b83a760a31680182237516-Sarees.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/bb3563e6-2655-48a1-9302-5509432000761680182237551-Tops-_-Tees.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/0efa613a-057c-4efa-bab4-d87406e943b41680182237529-Shirts.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/653114ce-832b-4032-be25-dd2edd4bacae1680182237462-Jeans-1.png" alt="">
+    </section>
+    <section class=" section2">
+        <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2023/4/3/b5ae9745-d021-432a-b7c0-a963af4926b81680503282481-OMG--Deals.jpg" alt=""> 
+    </section>
+    <section class="section3 flex-wrap">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/1b181430-fb52-49ed-a22c-abf3a8dbe3f91680182237378-Casual-Shoes.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/c42dc654-ac18-44d7-895f-229f597a83391680182237415-Flip-Flops.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/ae4a4e81-9f33-4be6-aca6-cd31b002fb311680182237505-Sandals.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/f55a8d38-87c2-4e5b-922a-cce62202e2181680182237450-Jeans.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/0efa613a-057c-4efa-bab4-d87406e943b41680182237529-Shirts.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/c54c2e1f-1846-4850-b31d-8346c06408911680182237539-Sports-Shoes.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/d9c03d35-ca0e-4372-be09-5180b052b5ff1680182237564-Trolleys-_-Backpacks.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/30891e09-48f7-433f-8569-40ed5f01d52f1680182237575-T-Shirts.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/4f73cbc7-65fe-4999-b03f-39fafab4d12b1680182237585-Watches-_-Wearables.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/b26e436d-5c4a-4f75-8f43-7e0bf18cddd21680182237398-Dresses.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/126f9b9c-8c33-41fa-87cb-194301273fee1680182237407-Flats-_-Heels.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/42e96b7c-5f09-41c6-9933-580ade9279b91680182237426-Handbags--Wallets-_-Clutches.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/653114ce-832b-4032-be25-dd2edd4bacae1680182237462-Jeans-1.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/383b6fd9-f8a3-461f-b1e7-5f33809ace6a1680182237474-Kids-Wear.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/56dfd7c4-cb7b-4c0f-98ec-7a219152dd1f1680182237483-Kurta-Sets.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/4a580849-e7d3-4e6a-ba3c-0f25218854ca1680182237492-Kurtas.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/28cfce55-cef8-4864-84be-159b83a760a31680182237516-Sarees.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/bb3563e6-2655-48a1-9302-5509432000761680182237551-Tops-_-Tees.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/0efa613a-057c-4efa-bab4-d87406e943b41680182237529-Shirts.png" alt="">
+        <img class="itemImg" src="https://assets.myntassets.com/f_webp,w_108,c_limit,fl_progressive,dpr_2.0/assets/images/2023/3/30/653114ce-832b-4032-be25-dd2edd4bacae1680182237462-Jeans-1.png" alt="">
+    </section>
+    <section class=" section2">
+        <img src="https://assets.myntassets.com/f_webp,w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2023/4/3/59b07790-94d2-48de-9435-1b546f19fed71680503282490-Most-Wanted-Brands-Worldwide.jpg" alt=""> 
+    </section>
+    <footer class="grid">
+        <div class="desktop-shopLinks" data-reactid="6"><p class="desktop-gInfoTitle" data-reactid="7"><a href="/?src=onlineShopping" data-reactid="8"> ONLINE SHOPPING </a></p><a href="/shop/men" data-reactid="9">Men</a><a href="/shop/women" data-reactid="13">Women</a><a href="/shop/kids" data-reactid="17">Kids</a><a href="/shop/home-living" data-reactid="21">Home &amp; Living</a><a href="/personal-care" data-reactid="25">Beauty</a><a href="/giftcard" data-reactid="29">Gift Cards</a><a href="/myntrainsider?cache=false" data-reactid="30">Myntra Insider</a><p class="desktop-gInfoTitle" data-reactid="31"> USEFUL LINKS </p><a data-refreshpage="true" href="http://blog.myntra.com/" data-reactid="32">Blog</a><a data-refreshpage="true" href="https://careers.myntra.com" data-reactid="36">Careers</a><a data-refreshpage="true" href="/sitemap" data-reactid="40">Site Map</a><a data-refreshpage="true" href="/corp-info" data-reactid="44">Corporate Information</a><a data-refreshpage="true" href="/security/whitehat" data-reactid="48">Whitehat</a></div>
+        
+
+        <div class="desktop-customerPolicies" data-reactid="52"><p class="desktop-gInfoTitle" data-reactid="53"> CUSTOMER POLICIES </p><a data-refreshpage="true" href="/contactus" data-reactid="54"><!-- react-text: 55 --> <!-- /react-text --><!-- react-text: 56 -->Contact Us<!-- /react-text --><!-- react-text: 57 --> <!-- /react-text --></a><a data-refreshpage="true" href="/faqs" data-reactid="58"><!-- react-text: 59 --> <!-- /react-text --><!-- react-text: 60 -->FAQ<!-- /react-text --><!-- react-text: 61 --> <!-- /react-text --></a><a data-refreshpage="true" href="/tac" data-reactid="62"><!-- react-text: 63 --> <!-- /react-text --><!-- react-text: 64 -->T&amp;C<!-- /react-text --><!-- react-text: 65 --> <!-- /react-text --></a><a data-refreshpage="true" href="/termsofuse" data-reactid="66"><!-- react-text: 67 --> <!-- /react-text --><!-- react-text: 68 -->Terms Of Use<!-- /react-text --><!-- react-text: 69 --> <!-- /react-text --></a><a data-refreshpage="true" href="/my/orders" data-reactid="70"><!-- react-text: 71 --> <!-- /react-text --><!-- react-text: 72 -->Track Orders<!-- /react-text --><!-- react-text: 73 --> <!-- /react-text --></a><a data-refreshpage="true" href="/faqs#shipping" data-reactid="74">Shipping</a><a data-refreshpage="true" href="/faqs#cancel" data-reactid="78">Cancellation</a><a data-refreshpage="true" href="/faqs#returns" data-reactid="82">Returns</a><a data-refreshpage="true" href="/privacypolicy" data-reactid="86">Privacy policy</a><a data-refreshpage="true" href="/termsofuse#23.%20Grievance%20Officer" data-reactid="90">Grievance Officer</a></div>
+        
+
+        <div class="desktop-appExperience" data-reactid="94"><p class="desktop-gInfoTitle" data-reactid="95"> EXPERIENCE MYNTRA APP ON MOBILE </p><div class="desktop-downLinkContainer" data-reactid="96"><a href="https://play.google.com/store/apps/details?id=com.myntra.android" data-reactid="97"><img class="desktop-androidDownLink" src="https://constant.myntassets.com/web/assets/img/80cc455a-92d2-4b5c-a038-7da0d92af33f1539674178924-google_play.png"></a><a href="https://itunes.apple.com/in/app/myntra-indias-fashion-store/id907394059" data-reactid="99"><img class="desktop-iOSDownLink" src="https://constant.myntassets.com/web/assets/img/bc5e11ad-0250-420a-ac71-115a57ca35d51539674178941-apple_store.png"></a></div><div class="desktop-keepInTouch" data-reactid="101"> KEEP IN TOUCH </div><a href="https://www.facebook.com/myntra" class="desktop-facebook" data-reactid="102"><img src="https://constant.myntassets.com/web/assets/img/d2bec182-bef5-4fab-ade0-034d21ec82e31574604275433-fb.png" style="width: 20px; height: 20px;"></a><a href="https://twitter.com/myntra" class="desktop-twitter" data-reactid="104"><img src="https://constant.myntassets.com/web/assets/img/f10bc513-c5a4-490c-9a9c-eb7a3cc8252b1574604275383-twitter.png" style="width: 20px; height: 20px;"></a><a href="https://www.youtube.com/user/myntradotcom" class="desktop-youtube" data-reactid="106"><img src="https://constant.myntassets.com/web/assets/img/a7e3c86e-566a-44a6-a733-179389dd87111574604275355-yt.png" style="width: 28px; height: 20px;"></a><a href="https://www.instagram.com/myntra" class="desktop-instagram" data-reactid="108"><img src="https://constant.myntassets.com/web/assets/img/b4fcca19-5fc1-4199-93ca-4cae3210ef7f1574604275408-insta.png" style="width: 20px; height: 22px; position: relative; top: 1px;"></a></div>
+    </footer>
+</body>
+</html>
