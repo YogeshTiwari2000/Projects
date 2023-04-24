@@ -1,3 +1,5 @@
+DEMO FOR NETFLIX :
+https://netflix-clone-46476.firebaseapp.com/
 DEMO for Food DELIVERY :
 https://yogeshtiwari2000.github.io/Projects/Food%20Delivery
 DEMO for Myntra Landing Clone :
