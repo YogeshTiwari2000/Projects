@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin-left: 8em;
+    background-color: #7c3aed;
+    padding: 1rem;
+    color: white;
+    width: 80vw;
+    border-bottom-left-radius: 1rem;
+    font-family: Montserrat;
+    font-size: 16px;
+    margin-top: 0;
+    height: 4em;
+}
+.nav-menu{
+    display: flex;
+    padding-left: 8px;
+    padding-right: 8px;
+    justify-content: flex-end;
+}
+ul{
+    display: flex;
+    /* background-color: black; */
+}
+.item{
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-family: Montserrat;
+    
+}
+/* .hero{
+    max-width: 80%;
+    width: 550px;
+} */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: fit-content;
+}
+img{
+    width: 45vw;
+    /* margin-left: 383px; */
+    margin-top: 55px;
+}
+.hero-head{
+    padding-top: 1.5rem;
+    font-family:Montserrat ; 
+    color: gray;
+    text-align: center;
+}
+.heading-color{
+    color: #7c3aed;
+}
+.ow{
+    /* padding: 2rem; */
+    background-color: #f3f4f6;
+    font-family: Montserrat;
+    text-align: center;
+    margin: 3rem 0;
+    border-radius: 1rem;
+    width: 90%;
+}
+.section-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+    flex-direction: column;
+}
+.container-center, .para-pad{
+    padding: 2rem;
+}
+.project-button{
+    background-color: #7c3aed;
+    border-radius: 2rem;
+    color: white;
+    font-size:18px ;
+    padding: 0.6rem 1rem;
+    border: none;
+}
+.ow1{
+    /* padding: 2rem; */
+    /* background-color: #f3f4f6; */
+    font-family: Montserrat;
+    text-align: center;
+    margin-top: 2rem 0;
+    border-radius: 1rem;
+    width: 90%;
+}
+.ow2{
+    /* padding: 2rem; */
+    background-color: #7c3aed;
+    color: white;
+    font-family: Montserrat;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 2rem 0;
+    
+    border-top-right-radius: 1rem;
+    width: 90%;
+}
+.ow3{
+    /* padding: 2rem; */
+    background-color: #7c3aed;
+    color: white;
+    font-family: Montserrat;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 2rem 0;
+    margin-left: 119px;
+    border-top-right-radius: 1rem;
+    width: 83%;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#blog-center{
+    padding: 90px;
+}
+#h1-padding{
+    padding-bottom: 15px;
+}
+#blogs-div-padd{
+    padding: 8rem;
+}
