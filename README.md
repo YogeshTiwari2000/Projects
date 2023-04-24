@@ -13,11 +13,15 @@ https://yogeshtiwari2000.github.io/Projects/project%20invisible%20login
 DEMO :
 https://yogeshtiwari2000.github.io/Projects/calculator
 
+DEMO PORTFOLIO:
+https://yogeshtiwari2000.github.io/Projects/portfolio_try_0T
+DEMO PORTFOLIO :
+https://sites.google.com/view/yogeshtiwari/
+
 DEMO CLOCK :
 https://yogeshtiwari2000.github.io/Projects/clock
 DEMO TIC TAC TOE:
 https://yogeshtiwari2000.github.io/Projects/tic%20tac%20toe
-DEMO PORTFOLIO:
-https://yogeshtiwari2000.github.io/Projects/portfolio_try_0
+
 DEMO DONATE :
 https://yogeshtiwari2000.github.io/Projects/donate
