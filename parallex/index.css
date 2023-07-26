@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 10px;
+    /*e.g you in car,building and moon, builing fast moving but not moon*/
+    /* in order to use z-axis we use perspective */
+}
+
+.container {
+    /* when we want objects to overlap we need to declare position absolute */
+    position: relative;
+    /*container will be parent to avatar container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    /*this is to make sure both img dont stuck in 2D place and stick to each other as we want to see some 3D effect that is parralellex effect*/
+    z-index: -1;
+    /*z-index hme btata hai kon se img kis ke uper ayegi during overlap*/
+}
+
+.background,
+.foreground {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    object-fit: cover;
+    /*stretch img such that it looks good on v.port*/
+}
+
+.background {
+    transform: translateZ(-40px) scale(5);
+    /*asa krne se img choti ni hui,dur chali gyi hai,or ab muje ise pass ni lana blki bda\zoom krna hai to scale se kra*/
+}
+
+.foreground {
+    transform: translateZ(-20px) scale(3);
+}
+
+h1 {
+    position: absolute;
+    font-size: 10rem;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* transform: translateX(-50%); */
+    letter-spacing: 4px;
+    top: 5rem;
+    /* left: 50%;  */
+}
+
+section {
+    background-color: rgb(45, 45, 45);
+    color: white;
+    padding: 5rem 0;
+}
+
+.bg1 {
+    background-image: url(sport-1.jpg);
+}
+
+.bg2 {
+    background-image: url(sport-2.jpg);
+}
+
+.bg3 {
+    background-image: url(sport-3.jpg);
+}
+
+.bg {
+    position: relative;
+    background-attachment: fixed;
+    /*it will make img fixed and then you can scroll over the img*/
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.secHeading {
+    font-size: 5rem;
+    padding: 0 10rem;
+}
+
+.text {
+    font-size: 1.5rem;
+    padding: 0 10rem;
+    margin: 5rem 0;
+}
+.desc{
+    position: absolute;
+    background-color: white;
+    padding: 0.5rem 2.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 3.5rem;
+    font-weight: 600;
+}
