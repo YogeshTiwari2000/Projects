@@ -1,6 +1,9 @@
 DEMO FOR RESTRAINT :
 https://restraunthai.netlify.app/
 
+DEMO For Parallex Site:
+https://yogeshtiwari2000.github.io/parallax_effect_website/
+
 DEMO FOR NETFLIX :
 https://netflix-clone-46476.firebaseapp.com/
 
