@@ -135,6 +135,12 @@
               .pt-1{
                 padding-top: 1rem !important;
               }
+              .p-3{
+                padding: 3rem !important;
+              }
+              .card-text{
+                text-align: left;
+              }
       /* mobile */
               @media only screen and (max-width: 576px) {
                   .container {
@@ -166,6 +172,11 @@
         margin-top: 1rem;
 
       }
+      .card-body{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
               }
               /* ipad landscape */
               @media only screen and (min-width: 769px) and (max-width: 992px){}
@@ -187,7 +198,7 @@
                   flex-direction: column;
               }
               ul {
-                  display: flex;
+                  display: flex;s
                   flex-direction: column;
                   margin-top: 2rem;
                   width: 100vw;
@@ -339,7 +350,7 @@
           </div>
         </div>
         <div class="contact">
-          <p style="padding: 90px;">
+          <p class="p-3">
             *Please share your email id and PAN (optional) while making a
             donation so that we can send you the donation receipt.
             <strong>
