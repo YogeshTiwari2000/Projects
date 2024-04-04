@@ -1,3 +1,5 @@
+DEMO FOR Cocktails : https://cocktailhai.netlify.app
+
 DEMO FOR RESTRAINT :
 https://restraunthai.netlify.app/
 
