@@ -1,4 +1,8 @@
-DEMO FOR Cocktails : https://cocktailhai.netlify.app
+DEMO FOR Shades : 
+https://colorshadeshai.netlify.app/
+
+DEMO FOR Cocktails : 
+https://cocktailhai.netlify.app
 
 DEMO FOR RESTRAINT :
 [https://restraunthai.netlify.app/](https://restrauntmenuhai.netlify.app/)
