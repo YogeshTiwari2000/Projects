@@ -1,4 +1,7 @@
-DEMO FOR Shades : 
+DEMO FOR Dashboard : 
+https://dashboardyvt.netlify.app/
+
+DEMO FOR Color-Shades : 
 https://colorshadeshai.netlify.app/
 
 DEMO FOR Cocktails : 
